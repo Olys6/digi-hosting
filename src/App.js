@@ -1,16 +1,21 @@
 import './App.css';
-import themeOptions from './Theme.js';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-
-import Navbar from './components/Navbar'
-
-const theme = createTheme(themeOptions);
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar.js'
+import Home from './components/Home'
+AOS.init();
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Navbar />
-    </ThemeProvider>
+
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
