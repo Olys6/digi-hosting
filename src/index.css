@@ -97,7 +97,7 @@ code {
 }
 
 .whyChooseUsSection {
-  /* background-color: #e4304c; */
+  background-color: #d6d5ed;
   /* color: white; */
   width: 100%;
   margin-top: 2.5rem;
@@ -109,10 +109,27 @@ code {
   flex-direction: column
 }
 
+.whyChooseUsCircles {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.whyChooseUsCircleAndDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+  text-align: center;
+}
 
 .whyChooseUsCircle {
-  height: 10rem;
-  width: 10rem;
+  height: 8rem;
+  width: 8rem;
   background-color: #e4304c;
   /* background-color: white; */
   border-radius: 100%;
@@ -121,7 +138,8 @@ code {
   align-items:center;
   /* color: #080494; */
   color: white;
-  font-size:28px
+  font-size:22px;
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -130,14 +148,14 @@ code {
     /* width: 95%; */
   }
   .hostingPlanCard{
-    margin-top: 2.5rem;
+    margin-top: 0.1rem;
   }
   .hostingPlanCard:hover {
-    margin: 0;
+    /* margin: 0; */
     /* padding-bottom: 2rem; */
   }
   .hostingPlanCard1:hover {
-    margin: 0;
+    /* margin: 0; */
     /* padding-bottom: 2rem; */
   }
   .hostingPlansUnder {

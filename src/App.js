@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar.js'
 import Home from './components/Home'
 AOS.init();
+
 function App() {
   return (
 
