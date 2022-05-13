@@ -96,6 +96,34 @@ code {
   flex-wrap: wrap;
 }
 
+.whyChooseUsSection {
+  /* background-color: #e4304c; */
+  /* color: white; */
+  width: 100%;
+  margin-top: 2.5rem;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+
+.whyChooseUsCircle {
+  height: 10rem;
+  width: 10rem;
+  background-color: #e4304c;
+  /* background-color: white; */
+  border-radius: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  /* color: #080494; */
+  color: white;
+  font-size:28px
+}
+
 @media screen and (max-width: 1000px) {
   .homeHeroCard {
     margin-left: 0px;

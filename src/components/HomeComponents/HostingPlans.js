@@ -9,7 +9,7 @@ const HostingPlans = () => {
     <>
       <div style={{ display: "flex", justifyContent: "space-evenly", marginTop: "-1rem", flexWrap: "wrap" }} data-aos="fade-up">
         <a href='#' className="hostingPlanCard1" style={{ width: '24rem' }}>
-            <Card.Title className="hostingPlanCardTitle" style={{ fontSize: '25px'}}>Hosting Plan 1</Card.Title>
+            <Card.Title className="hostingPlanCardTitle" style={{ fontSize: '25px'}} >Hosting Plan 1</Card.Title>
             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
           <i className="fa-solid fa-cloud" style={{ fontSize: '60px', color: "#080494"}}></i>
           <Card.Text style={{ display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column", width: "85%", color: "#080494" }}>
