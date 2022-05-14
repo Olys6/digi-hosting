@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap'
+import { Card, ListGroup } from 'react-bootstrap'
 import HostingPlans from './HomeComponents/HostingPlans.js'
 
 const Home = () => {
@@ -60,6 +60,27 @@ const Home = () => {
               Our support team is here to help you.
             </p>
           </div>
+        </div>
+      </section>
+      <section className='featuresSection'>
+        <h2>Features</h2>
+        <div className="featuresList">
+          <ListGroup>
+            <ListGroup.Item className="featuresListItem">
+              <p><i className="fas fa-check" style={{ marginRight: "10px" }}></i>Website Builder</p>
+            </ListGroup.Item>
+            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+            <ListGroup.Item>Morbi leo risus</ListGroup.Item>
+            <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+          </ListGroup>
+          <ListGroup>
+            <ListGroup.Item>Cras justo odio</ListGroup.Item>
+            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+            <ListGroup.Item>Morbi leo risus</ListGroup.Item>
+            <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+          </ListGroup>
         </div>
       </section>
     </>
