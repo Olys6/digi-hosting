@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, ListGroup } from 'react-bootstrap'
-import HostingPlans from './HomeComponents/HostingPlans.js'
+import Plans from './HomeComponents/Plans.js'
 
 const Home = () => {
 
@@ -24,7 +24,7 @@ const Home = () => {
 
         </div> */}
       </div>
-      <HostingPlans />
+      <Plans />
       <section className="whyChooseUsSection">
         <h2 style={{ fontSize: "40px", color: "#080494" }}>Why choose us</h2>
         <div className="whyChooseUsCircles">
@@ -32,7 +32,7 @@ const Home = () => {
             <div className="whyChooseUsCircle"><i class="fas fa-hdd fa-3x"></i></div>
           
           <p style={{ fontSize: "25px", fontWeight: "bold", color: "#080494" }}>100% SSD Hosting</p>
-          <p style={{ fontSize: "20px", color: "#080494" }}>
+          <p style={{ fontSize: "20px", color: "#080494", fontWeight: "500" }}>
             Solid state drive storage means faster loading websites.
           </p>
           </div>
@@ -40,7 +40,7 @@ const Home = () => {
             <div className="whyChooseUsCircle"><i class="fas fa-user-tie fa-3x"></i></div>
 
             <p style={{ fontSize: "25px", fontWeight: "bold", color: "#080494" }}>Hosting Experts</p>
-            <p style={{ fontSize: "20px", color: "#080494" }}>
+            <p style={{ fontSize: "20px", color: "#080494", fontWeight: "500" }}>
               Your hosting is backed by a team of professionals.
             </p>
           </div>
@@ -48,7 +48,7 @@ const Home = () => {
             <div className="whyChooseUsCircle"><i class="fas fa-cloud fa-3x"></i></div>
 
             <p style={{ fontSize: "25px", fontWeight: "bold", color: "#080494" }}>Cloud Platform</p>
-            <p style={{ fontSize: "20px", color: "#080494" }}>
+            <p style={{ fontSize: "20px", color: "#080494", fontWeight: "500" }}>
               Load-balanced and automatically scales to meet demand.
             </p>
           </div>
@@ -56,7 +56,7 @@ const Home = () => {
             <div className="whyChooseUsCircle"><i className="fa-solid fa-ticket" style={{ fontSize: "65px"}}></i></div>
 
             <p style={{ fontSize: "25px", fontWeight: "bold", color: "#080494" }}>Reliable Support</p>
-            <p style={{ fontSize: "20px", color: "#080494" }}>
+            <p style={{ fontSize: "20px", color: "#080494", fontWeight: "500" }}>
               Our support team is here to help you.
             </p>
           </div>
@@ -64,23 +64,18 @@ const Home = () => {
       </section>
       <section className='featuresSection'>
         <h2>Features</h2>
-        <div className="featuresList">
-          <ListGroup>
-            <ListGroup.Item className="featuresListItem">
-              <p><i className="fas fa-check" style={{ marginRight: "10px" }}></i>Website Builder</p>
-            </ListGroup.Item>
-            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-            <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-            <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-          </ListGroup>
-          <ListGroup>
-            <ListGroup.Item>Cras justo odio</ListGroup.Item>
-            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-            <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-            <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-          </ListGroup>
+        <div className="featuresLists">
+          <div className='featuresList'>
+            <div style={{ fontWeight:"bold", fontSize: "30px", backgroundColor: "#e4304c", height: "4rem", color: "white", display: "flex", alignItems: "center", paddingLeft: "15px", boxSizing: "border-box" }}>
+              Hosting Feature list
+            </div>
+            <div className='featuresListItem'>
+
+            </div>
+          </div>
+          <div className='featuresList'>
+
+          </div>
         </div>
       </section>
     </>

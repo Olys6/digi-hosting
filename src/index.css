@@ -21,6 +21,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -2rem;
 }
 
 .navLink {
@@ -44,6 +45,7 @@ code {
   transition: 0.2s;
   text-decoration: none;
 }
+
 .hostingPlanCard1:hover {
   margin: -2rem 0 2rem 0;
   /* padding-bottom: 2rem; */
@@ -51,18 +53,19 @@ code {
 
 .hostingPlanCard {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  gap: 1rem;
-  border: 3px solid #e4304c;
-  background-color: white;
+  /* gap: 1rem; */
+  /* border: 3px solid #e4304c; */
+  /* background-color: white; */
   /* border-radius: 5px; */
   transition: 0.2s;
   text-decoration: none;
 }
+
 .hostingPlanCard:hover {
-  margin: -2rem 0 2rem 0;
+  margin: -1rem 0 1rem 0;
   /* padding-bottom: 2rem; */
 }
 
@@ -75,15 +78,29 @@ code {
   /* border-radius: 5px 5px 0 0; */
   color: white;
   background-color: #e4304c;
-  height: 2.8rem;
+  height: 3.3rem;
+}
+
+.hostingPlanCardText {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  flex-direction: column; 
+  font-weight: 630;
+  width: 100%;
+  height: 18rem;
+  /* gap: 1rem; */
+  background-color: white;
+  border-left: 3px solid #e4304c;
+  border-right: 3px solid #e4304c;
 }
 
 .hostingPlanCardPrice {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 12rem;
+  height: 10rem;
   background-color: #e4304c;
   width: 100%;
 }
@@ -91,7 +108,7 @@ code {
 .hostingPlansUnder {
   margin-top: 2.5rem;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   /* gap: 1rem; */
   flex-wrap: wrap;
 }
@@ -134,11 +151,11 @@ code {
   /* background-color: white; */
   border-radius: 100%;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   /* color: #080494; */
   color: white;
-  font-size:22px;
+  font-size: 22px;
   margin-bottom: 0.5rem;
 }
 
@@ -151,16 +168,36 @@ code {
   box-sizing: border-box;
 }
 
-.featuresList {
+.featuresLists {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  width: 90%;
+}
+
+.featuresList {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
 }
 
 .featuresListItem {
-  font-size: 20px;
+  font-weight: bold; 
+  font-size: 30px; 
+  height: 4rem; 
+  color: white; 
+  display: flex; 
+  align-items: center; 
+  padding-left: 15px; 
+  box-sizing: border-box;
+  border: 1px solid #e4304c;
+}
+
+.featuresListItem {
+  font-size: 18px;
   display: flex;
-  gap: 1rem;
+  justify-content: space-around;
+  /* gap: 2rem; */
 }
 
 @media screen and (max-width: 1000px) {
@@ -168,17 +205,21 @@ code {
     margin-left: 0px;
     /* width: 95%; */
   }
-  .hostingPlanCard{
+
+  .hostingPlanCard {
     margin-top: 0.1rem;
   }
+
   .hostingPlanCard:hover {
     /* margin: 0; */
     /* padding-bottom: 2rem; */
   }
+
   .hostingPlanCard1:hover {
     /* margin: 0; */
     /* padding-bottom: 2rem; */
   }
+
   .hostingPlansUnder {
     margin-top: 0rem;
   }
