@@ -8,7 +8,7 @@ const Plans = () => {
   return (
     <>
       <div style={{ display: "flex", justifyContent: "center", gap: "1.2rem", flexWrap: "wrap" }} data-aos="fade-up">
-        <a href='#' className="hostingPlanCard" style={{ width: '24rem' }}>
+        <a href='#' className="hostingPlanCard">
           <Card.Title className="hostingPlanCardTitle" style={{ fontSize: '25px', marginBottom: "0rem" }} >Web Hosting</Card.Title>
           <div className="hostingPlanCardText">
             {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
@@ -16,7 +16,7 @@ const Plans = () => {
             <Card.Text style={{ display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column", width: "85%", color: "#080494" }}>
               <div><i className="fa-solid fa-check" style={{ marginRight: "10px" }}></i> Powerful market-leading technology</div>
               <div><i className="fa-solid fa-check" style={{ marginRight: "10px" }}></i> User-friendly control panel</div>
-              <div><i className="fa-solid fa-check" style={{ marginRight: "10px" }}></i> 70+ one-click install apps</div>
+              {/* <div><i className="fa-solid fa-check" style={{ marginRight: "10px" }}></i> 70+ one-click install apps</div> */}
               <div><i className="fa-solid fa-check" style={{ marginRight: "10px" }}></i> Secure, state-of-the-art UK data centre</div>
               <div><i className="fa-solid fa-check" style={{ marginRight: "10px" }}></i> Choice of Windows or Linux hosting</div>
               <div><i className="fa-solid fa-check" style={{ marginRight: "10px" }}></i> Friendly UK support</div>
@@ -28,7 +28,7 @@ const Plans = () => {
             <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem" }}>Order Now</Button>
           </div>
         </a>
-        <a href='#' className="hostingPlanCard" style={{ width: '24rem' }}>
+        <a href='#' className="hostingPlanCard">
           <Card.Title className="hostingPlanCardTitle" style={{ fontSize: '25px', marginBottom: "0rem" }}>Domain Names</Card.Title>
           {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
           <div className="hostingPlanCardText">
@@ -49,7 +49,7 @@ const Plans = () => {
         </a>
         {/* </div> */}
         {/* <div className="hostingPlansUnder" data-aos="fade-up"> */}
-        <a href='#' className="hostingPlanCard" style={{ width: '24rem' }}>
+        <a href='#' className="hostingPlanCard">
           <Card.Title className="hostingPlanCardTitle" style={{ fontSize: '25px', marginBottom: "0rem" }}>VPS</Card.Title>
           {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
           <div className="hostingPlanCardText">
@@ -67,7 +67,7 @@ const Plans = () => {
             <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem" }}>Order Now</Button>
           </div>
         </a>
-        <a href='#' className="hostingPlanCard" style={{ width: '24rem' }}>
+        <a href='#' className="hostingPlanCard">
           <Card.Title className="hostingPlanCardTitle" style={{ fontSize: '25px', marginBottom: "0rem" }}>SSL Certificates</Card.Title>
           {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
           <div className="hostingPlanCardText">
