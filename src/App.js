@@ -13,8 +13,8 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route exact path='/web-hosting' element={<Home />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/web-hosting' element={<Home />} />
       </Routes>
     </BrowserRouter>
 
