@@ -11,10 +11,10 @@ const Home = () => {
       <div className="homeHero">
         <div className="homeHeroCard">
           <Card.Body>
-            <Card.Subtitle style={{ backgroundColor: "#e4304c", color: 'white', display: "inline-block", fontSize: "30px", padding: "5px", boxSizing: "border-box" }}>
+            <Card.Subtitle style={{ backgroundColor: "#e4304c", color: 'white', display: "inline-block", fontSize: "30px", padding: "5px", boxSizing: "border-box", borderRadius: "1.7px" }}>
               Hosting you can rely on
             </Card.Subtitle>
-            <Card.Title style={{ backgroundColor: "white", color: "#080494", marginTop: "20px", padding: "10px", boxSizing: "border-box", fontSize: "45px", margin: "-15px 0 0 20px" }}>
+            <Card.Title style={{ backgroundColor: "white", color: "#080494", marginTop: "20px", padding: "10px", boxSizing: "border-box", fontSize: "45px", margin: "-15px 0 0 20px", borderRadius: "1.7px" }}>
               Versatile, powerful web hosting
             </Card.Title>
           </Card.Body>
@@ -26,7 +26,7 @@ const Home = () => {
       </div>
       <Plans />
       <section className="whyChooseUsSection">
-        <h2 style={{ fontSize: "40px", color: "#080494" }}>Why choose us</h2>
+        <h2 style={{ fontSize: "40px", color: "#080494", backgroundColor: "white", padding: "5px 10px 5px 10px", boxSizing: "border-box", borderRadius: "1.7px" }}>Why choose us</h2>
         <div className="whyChooseUsCircles">
           <div class="whyChooseUsCircleAndDesc" data-aos="fade-up" data-aos-duration="400">
             <div className="whyChooseUsCircle"><i class="fas fa-hdd fa-3x"></i></div>
@@ -63,7 +63,7 @@ const Home = () => {
         </div>
       </section>
       <section className='featuresSection'>
-        <h2>Features</h2>
+        <h2 style={{ fontSize: "40px", color: "#080494", backgroundColor: "white", padding: "5px 10px 5px 10px", boxSizing: "border-box", borderRadius: "3px" }}>Features</h2>
         <div className="featuresLists">
           <div className='featuresList' data-aos="fade-right" data-aos-duration="800">
             <div style={{ fontWeight: "bold", fontSize: "30px", backgroundColor: "#e4304c", height: "4rem", color: "white", display: "flex", alignItems: "center", paddingLeft: "15px", boxSizing: "border-box" }}>

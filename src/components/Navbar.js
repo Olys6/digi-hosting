@@ -9,7 +9,7 @@ const NavBar = () => {
   const navbarItems = ['Web Hosting', 'Find a Domain', 'VPS', 'SSL Certificates']
 
   return (
-    <Navbar style={{ backgroundColor: 'white' }} expand="lg" variant="light">
+    <Navbar style={{ backgroundColor: 'white' }} expand="lg" variant="light" fixed="top">
       <Container>
         <Navbar.Brand style={{ marginLeft: "0px" }} href="#home"><img style={{ width: "280px" }} src="./assets/Digi-SwissLogo.png" alt="digi host logo" /></Navbar.Brand>
         <Nav className="justify-content-end flex-grow-1 pe-3" >

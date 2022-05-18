@@ -58,6 +58,7 @@ code {
   justify-content: center;
   align-items: center;
   width: 100%;
+  border-radius: 1.7px 1.7px 0 0;
   /* border-radius: 5px 5px 0 0; */
   color: white;
   background-color: #e4304c;
@@ -86,6 +87,7 @@ code {
   height: 10rem;
   background-color: #e4304c;
   width: 100%;
+  border-radius: 0 0 1.7px 1.7px;
 }
 
 .hostingPlansUnder {
@@ -149,6 +151,7 @@ code {
   flex-direction: column;
   padding: 10px;
   box-sizing: border-box;
+  background-color: rgb(255, 202, 202);
 }
 
 .featuresLists {
@@ -170,6 +173,7 @@ code {
   font-size: 18px; 
   /* height: 3.5rem;  */
   color: #080494; 
+  background-color: rgb(255, 255, 255);
   padding: 0.75rem; 
   box-sizing: border-box;
   border: 1px solid #e4304c;
