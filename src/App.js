@@ -14,6 +14,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path='/' element={<Home />} />
+        <Route exact path='/web-hosting' element={<Home />} />
       </Routes>
     </BrowserRouter>
 
