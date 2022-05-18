@@ -63,7 +63,7 @@ const Home = () => {
         </div>
       </section>
       <section className='featuresSection'>
-        <h2 style={{ fontSize: "40px", color: "#080494", backgroundColor: "white", padding: "5px 10px 5px 10px", boxSizing: "border-box", borderRadius: "3px" }}>Features</h2>
+        <h2 style={{ fontSize: "40px", color: "#080494", backgroundColor: "white", padding: "5px 10px 5px 10px", boxSizing: "border-box", borderRadius: "3px", marginBottom: "3rem" }}>Features</h2>
         <div className="featuresLists">
           <div className='featuresList' data-aos="fade-right" data-aos-duration="800">
             <div style={{ fontWeight: "bold", fontSize: "30px", backgroundColor: "#e4304c", height: "4rem", color: "white", display: "flex", alignItems: "center", paddingLeft: "15px", boxSizing: "border-box" }}>
