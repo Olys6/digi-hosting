@@ -8,7 +8,7 @@ const Home = () => {
 
 
   return (
-    <div style={{ marginTop: "3rem" }}>
+    <>
       <div className="homeHero">
         <div className="homeHeroCard">
           <Card.Body>
@@ -72,7 +72,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   )
 }
 export default Home

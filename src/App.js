@@ -12,6 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
+      {/* <div style={{ height: "3.8rem" }}></div> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='web-hosting' element={<WebHosting />} />
