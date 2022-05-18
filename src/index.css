@@ -195,11 +195,8 @@ code {
 /* ? WEB HOSTING PAGE */
 
 .webHostingHero {
-  height: 8rem;
-  background-color: #e4304c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-height: 10rem;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 1000px) {
