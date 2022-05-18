@@ -6,7 +6,9 @@ const WebHosting = () => {
 
   return(
     <>
-    <h1>Hello Web Hosting</h1>
+      <div className="webHostingHero">
+        <div style={{ backgroundColor: "gray", padding: "10px", display: "inline-block", color: "white" }}>Web Hosting</div>
+      </div>
     </>
   )
 }

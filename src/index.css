@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
@@ -191,10 +192,21 @@ code {
   margin: 0
 }
 
+/* ? WEB HOSTING PAGE */
+
+.webHostingHero {
+  height: 8rem;
+  background-color: #e4304c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
   .homeHeroCard {
     margin-left: 0px;
     /* width: 95%; */
+
   }
 
   .hostingPlanCard {
