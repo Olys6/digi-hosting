@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <Navbar style={{ backgroundColor: 'white' }} expand="lg" variant="light" fixed="top">
       <Container>
-        <Navbar.Brand style={{ marginLeft: "0px" }} href="/"><img style={{ width: "280px" }} src="./assets/Digi-SwissLogo.png" alt="digi host logo" /></Navbar.Brand>
+        <Navbar.Brand style={{ marginLeft: "0px" }} href="/"><img style={{ width: "280px" }} src="./assets/Digi-SwissLogo.png" alt="digi host logo" ></img></Navbar.Brand>
         <Nav className="justify-content-end flex-grow-1 pe-3" >
           <Nav.Link style={{ color: "#080494", fontWeight: "bold" }} href='/'>Home</Nav.Link>
           <>
