@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/digi-hosting/static/css/main.47feefe4.css",
-    "main.js": "/digi-hosting/static/js/main.ed19b4a5.js",
+    "main.js": "/digi-hosting/static/js/main.3ad04ab2.js",
     "static/js/787.b59a7250.chunk.js": "/digi-hosting/static/js/787.b59a7250.chunk.js",
     "static/media/jumpstory-download20220511-135817.jpg": "/digi-hosting/static/media/jumpstory-download20220511-135817.b358870cade77e12d34a.jpg",
     "index.html": "/digi-hosting/index.html",
     "main.47feefe4.css.map": "/digi-hosting/static/css/main.47feefe4.css.map",
-    "main.ed19b4a5.js.map": "/digi-hosting/static/js/main.ed19b4a5.js.map",
+    "main.3ad04ab2.js.map": "/digi-hosting/static/js/main.3ad04ab2.js.map",
     "787.b59a7250.chunk.js.map": "/digi-hosting/static/js/787.b59a7250.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47feefe4.css",
-    "static/js/main.ed19b4a5.js"
+    "static/js/main.3ad04ab2.js"
   ]
 }
