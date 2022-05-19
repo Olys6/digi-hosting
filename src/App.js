@@ -16,7 +16,7 @@ function App() {
       <NavBar />
       {/* <div style={{ height: "3.8rem" }}></div> */}
       <Routes>
-        <Route path={process.env.PUBLIC_URL + "/"} element={ <Home /> } />
+        <Route path={"/digi-hosting/"} element={ <Home /> } />
         <Route path={process.env.PUBLIC_URL + "web-hosting"} element={ <WebHosting/> } />
         <Route path='*' element={<Page404 />} />
       </Routes>
