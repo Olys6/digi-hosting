@@ -16,7 +16,7 @@ const NavBar = () => {
           <Nav.Link style={{ color: "#080494", fontWeight: "bold" }} href='/'>Home</Nav.Link>
           <>
             {navbarItems.map((item) => (
-              <Nav.Link key={item} href={item.split(" ").join("-").toLowerCase()} style={{ color: "#080494", fontWeight: "bold" }}>{item}</Nav.Link>
+              <Nav.Link key={item} href={"/" + item.split(" ").join("-").toLowerCase()} style={{ color: "#080494", fontWeight: "bold" }}>{item}</Nav.Link>
             ))}
           </>
           {/* <Nav.Link href="#home">Home</Nav.Link>
