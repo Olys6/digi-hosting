@@ -17,7 +17,7 @@ function App() {
       {/* <div style={{ height: "3.8rem" }}></div> */}
       <Routes>
         <Route path={"/digi-hosting/"} element={ <Home /> } />
-        <Route path={"/digi-hosting/web-hosting"} element={ <WebHosting/> } />
+        <Route path={"/digi-hosting/web-hosting/"} element={ <WebHosting/> } />
         <Route path='*' element={<Page404 />} />
       </Routes>
     </div>
