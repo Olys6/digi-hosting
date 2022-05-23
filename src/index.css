@@ -251,20 +251,21 @@ code {
 }
 
 .oneClickAppsSection {
-  min-height: 20rem;
+  /* min-height: 40rem; */
   background-color: #212529;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   color: white;
+  padding: 20px
 }
 
 .oneClickApps {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  justify-content: space-evenly;
+  gap: 1.5rem;
   align-items: center;
 }
 
