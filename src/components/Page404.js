@@ -6,7 +6,7 @@ const Page404 = () => {
 
   return(
   <>
-    <h1> HELLO WORLD</h1>
+    <h2> HELLO WORLD</h2>
   </>
   )
 }

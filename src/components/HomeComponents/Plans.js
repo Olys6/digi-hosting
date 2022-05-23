@@ -25,7 +25,7 @@ const Plans = () => {
           </div>
           <div className="hostingPlanCardPrice">
             <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px" }}>9</span>.99 a year</p>
-            <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem" }}>Order Now</Button>
+            <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem", fontWeight: "700", fontSize: "20px" }}>Order Now</Button>
           </div>
         </a>
         <a href='#' className="hostingPlanCard">
@@ -44,7 +44,7 @@ const Plans = () => {
           </div>
           <div className="hostingPlanCardPrice">
             <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px" }}>9</span>.99 a year</p>
-            <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem" }}>Order Now</Button>
+            <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem", fontWeight: "700", fontSize: "20px" }}>Order Now</Button>
           </div>
         </a>
         {/* </div> */}
@@ -64,7 +64,7 @@ const Plans = () => {
           </div>
           <div className="hostingPlanCardPrice">
             <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px" }}>9</span>.99 a year</p>
-            <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem" }}>Order Now</Button>
+            <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem", fontWeight: "700", fontSize: "20px" }}>Order Now</Button>
           </div>
         </a>
         <a href='#' className="hostingPlanCard">
@@ -83,7 +83,7 @@ const Plans = () => {
           </div>
           <div className="hostingPlanCardPrice">
             <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px" }}>9</span>.99 a year</p>
-            <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem" }}>Order Now</Button>
+            <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem", fontWeight: "700", fontSize: "20px" }}>Order Now</Button>
           </div>
         </a>
       </div>
