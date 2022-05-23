@@ -203,20 +203,108 @@ const OneClickApps = () => {
     {
       name: "Pligg",
       image: "./assets/one-click-apps/pligg.svg",
+    },
+    {
+      name: "PrestaShop",
+      image: "./assets/one-click-apps/prestashop.svg",
+    },
+    {
+      name: "Prosper202",
+      image: "./assets/one-click-apps/prosper202.svg",
+    },
+    {
+      name: "Revive AdServer",
+      image: "./assets/one-click-apps/revive.svg",
+    },
+    {
+      name: "RoundCube",
+      image: "./assets/one-click-apps/roundcube.svg",
+    },
+    {
+      name: "SalesSyntax",
+      image: "./assets/one-click-apps/craftysyntax-icon.png", 
+    },
+    {
+      name: "Serendipity",
+      image: "./assets/one-click-apps/serendipity.svg",
+    },
+    {
+      name: "SilverStripe",
+      image: "./assets/one-click-apps/silverstripe.svg",
+    },
+    {
+      name: "SimpleInvoices",
+      image: "./assets/one-click-apps/simpleinvoices.svg",
+    },
+    {
+      name: "SMF",
+      image: "./assets/one-click-apps/simplemachinesforum.svg",
+    },
+    {
+      name: "Slim",
+      image: "./assets/one-click-apps/slim.svg",
+    },
+    {
+      name: "SquirrelMail",
+      image: "./assets/one-click-apps/squirrelmail-icon.png",
+    },
+    {
+      name: "StatusNet",
+      image: "./assets/one-click-apps/statusnet.svg",
+    },
+    {
+      name: "SugarCRM",
+      image: "./assets/one-click-apps/sugarcrm.svg",
+    },
+    {
+      name: "SuiteCRM",
+      image: "./assets/one-click-apps/suitecrm-b.svg",
+    },
+    {
+      name: "TCExam",
+      image: "./assets/one-click-apps/tcexam.svg",
+    },
+    {
+      name: "TextPattern",
+      image: "./assets/one-click-apps/textpattern.svg",
+    },
+    {
+      name: "TraceWatch",
+      image: "./assets/one-click-apps/tracewatch.svg",
+    },
+    {
+      name: "TroubleTicket",
+      image: "./assets/one-click-apps/troubleticketexpress.svg",
+    },
+    {
+      name: "Typo3",
+      image: "./assets/one-click-apps/typo3.svg",
+    },
+    {
+      name: "vTiger",
+      image: "./assets/one-click-apps/vtiger.svg",
+    },
+    {
+      name: "WebCalendar",
+      image: "./assets/one-click-apps/webcalendar.svg",
+    },
+    {
+      name: "ZenCart",
+      image: "./assets/one-click-apps/zencart.svg",
     }
   ]
 
-  let animDur = 0;
+  let animDur = 800;
 
   return (
     <section className="oneClickAppsSection">
       <h2 style={{ marginTop: "20px", marginBottom: "70px" }}>Free One-Click Applications</h2>
       <div className="oneClickApps">
         {apps.map((app) => {
-          animDur += 50;
-          if (animDur > 3000) {
-            animDur = 3000;
-          }
+          // animDur += 50;
+          // if (animDur > 3000) {
+          //   animDur = 3000;
+          // }
           return(
             <div className="oneClickApp" data-aos="fade-down" data-aos-duration={animDur.toString()}>
               <div className="oneClickAppBubble" style={{ backgroundImage: `url(${app.image})` }}></div>
