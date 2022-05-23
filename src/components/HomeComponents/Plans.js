@@ -24,7 +24,7 @@ const Plans = () => {
             </Card.Text>
           </div>
           <div className="hostingPlanCardPrice">
-            <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px" }}>9</span>.99 a year</p>
+            <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px", fontWeight: "600" }}>9</span>.99 a year</p>
             <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem", fontWeight: "700", fontSize: "20px" }}>Order Now</Button>
           </div>
         </a>
@@ -43,7 +43,7 @@ const Plans = () => {
             </Card.Text>
           </div>
           <div className="hostingPlanCardPrice">
-            <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px" }}>9</span>.99 a year</p>
+            <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px", fontWeight: "600" }}>9</span>.99 a year</p>
             <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem", fontWeight: "700", fontSize: "20px" }}>Order Now</Button>
           </div>
         </a>
@@ -63,7 +63,7 @@ const Plans = () => {
             </Card.Text>
           </div>
           <div className="hostingPlanCardPrice">
-            <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px" }}>9</span>.99 a year</p>
+            <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px", fontWeight: "600" }}>9</span>.99 a year</p>
             <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem", fontWeight: "700", fontSize: "20px" }}>Order Now</Button>
           </div>
         </a>
@@ -82,7 +82,7 @@ const Plans = () => {
             </Card.Text>
           </div>
           <div className="hostingPlanCardPrice">
-            <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px" }}>9</span>.99 a year</p>
+            <p style={{ color: "white", fontSize: "25px", marginTop: "-40px" }}>£<span style={{ fontSize: "90px", fontWeight: "600" }}>9</span>.99 a year</p>
             <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem", fontWeight: "700", fontSize: "20px" }}>Order Now</Button>
           </div>
         </a>

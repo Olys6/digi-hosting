@@ -1,6 +1,8 @@
 import React from "react";
 import Hero from "../Hero.js";
 import HostingPlans from "./HostingPlans.js";
+import About from "../About.js";
+import OneClickApps from "./OneClickApps.js";
 
 const WebHosting = () => {
 
@@ -14,6 +16,8 @@ const WebHosting = () => {
       <div className="" style={{ marginTop: "13rem" }}>
         <HostingPlans />
       </div>
+      <About />
+      <OneClickApps />
     </>
   )
 }
