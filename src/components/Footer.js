@@ -5,9 +5,9 @@ const Footer = () => {
 
 
   return(
-    <h1>
+    <div className="footer">
       HELLO Footer
-    </h1>
+    </div>
   )
 }
 

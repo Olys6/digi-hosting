@@ -306,6 +306,18 @@ code {
   font-weight: 600;
 }
 
+.footer {
+  background-color: #080494;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  font-weight: 600;
+}
+
 /* ? WEB HOSTING PAGE */
 
 .webHostingHero {
