@@ -271,7 +271,7 @@ code {
   align-items:center; 
   background-color:#e4304c;
   padding: 20px;
-  border-radius: 100px;
+  border-radius: 6px;
   border: 2px solid white;
   text-align: center;
 }
@@ -290,6 +290,11 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: .2s;
+}
+
+.oneClickApp:hover {
+  transform: scale(1.2);
 }
 
 .oneClickAppBubble {
@@ -297,9 +302,10 @@ code {
   height: 6rem;
   background-color: white;
   /* border: 5px solid #e4304c; */
-  border-radius: 100px;
+  border-radius: 5px;
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .oneClickAppName {

@@ -4,7 +4,12 @@ import { InputGroup, FormControl } from "react-bootstrap";
 const OneClickApps = () => {
   const [search, setSearch] = useState("");
   const [filteredApps, setFilteredApps] = useState([]);
+  // sort apps by name
   const [apps] = useState([
+    {
+      name: "Dolibarr",
+      image: "./assets/one-click-apps/dolibarr.svg"
+    },
     {
       name: "WordPress",
       image: "./assets/one-click-apps/wordpress.svg",
@@ -293,7 +298,9 @@ const OneClickApps = () => {
       name: "ZenCart",
       image: "./assets/one-click-apps/zencart.svg",
     }
-  ]);
+  ].sort(function(a, b) {
+    return a.name.localeCompare(b.name);
+  }));
   // make object with all the apps from assets on-click-apps folder
 
   const handleSearch = (event) => {
@@ -310,7 +317,7 @@ const OneClickApps = () => {
     }))
   }, [apps, filteredApps, search])
 
-  let animDur = 800;
+  let animDur = 600;
   return (
     <section className="oneClickAppsSection">
       <div className="oneClickAppsTitleAndSearch">
@@ -333,6 +340,10 @@ const OneClickApps = () => {
             </div>
           )
         })}
+        <div className="oneClickApp" data-aos="fade-down" data-aos-duration={animDur.toString()}>
+          <div className="oneClickAppBubble" style={{ display: "flex", justifyContent: "center", alignItems: "center", color: "white", fontSize: "55px", backgroundColor: "#e4304c" }}><i class="fa-solid fa-plus"></i></div>
+          <div className="oneClickAppName">More!</div>
+        </div>
       </div>
     </section>
   )
