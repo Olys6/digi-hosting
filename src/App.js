@@ -7,6 +7,7 @@ import NavBar from './components/NavBar.js'
 import Home from './components/Home'
 import WebHosting from './components/webhosting-pages/WebHosting';
 import Page404 from './components/Page404.js'
+import Footer from './components/Footer';
 
 AOS.init();
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/digi-hosting/web-hosting/" element={ <WebHosting/> } />
         <Route path='*' element={<Page404 />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
