@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { InputGroup, FormControl } from "react-bootstrap";
 
 const OneClickApps = () => {
-
-  // make object with all the apps from assets on-click-apps folder
-  const apps = [
+  const [search, setSearch] = useState("");
+  const [filteredApps, setFilteredApps] = useState([]);
+  const [apps] = useState([
     {
       name: "WordPress",
       image: "./assets/one-click-apps/wordpress.svg",
@@ -42,7 +43,7 @@ const OneClickApps = () => {
     },
     {
       name: "CakePHP",
-      image:"./assets/one-click-apps/cakephp.svg",
+      image: "./assets/one-click-apps/cakephp.svg",
     },
     {
       name: "CMS Made Simple",
@@ -118,7 +119,7 @@ const OneClickApps = () => {
     },
     {
       name: "MantisBT",
-      image: "./assets/one-click-apps/mantisbt-icon.png", 
+      image: "./assets/one-click-apps/mantisbt-icon.png",
     },
     {
       name: "Matomo",
@@ -222,7 +223,7 @@ const OneClickApps = () => {
     },
     {
       name: "SalesSyntax",
-      image: "./assets/one-click-apps/craftysyntax-icon.png", 
+      image: "./assets/one-click-apps/craftysyntax-icon.png",
     },
     {
       name: "Serendipity",
@@ -292,15 +293,35 @@ const OneClickApps = () => {
       name: "ZenCart",
       image: "./assets/one-click-apps/zencart.svg",
     }
-  ]
+  ]);
+  // make object with all the apps from assets on-click-apps folder
+
+  const handleSearch = (event) => {
+    if (event.target.value.includes("\\") || event.target.value.includes("(") || event.target.value.includes(")")
+      || event.target.value.includes("*") || event.target.value.includes("[") || event.target.value.includes("+")) return;
+    setSearch(event.target.value)
+  }
+
+  useEffect(() => {
+    const regexSearch = new RegExp(search, 'ig')
+    setFilteredApps(apps.filter(app => {
+
+      return regexSearch.test(app.name)
+    }))
+  }, [apps, filteredApps, search])
 
   let animDur = 800;
-
   return (
     <section className="oneClickAppsSection">
-      <h2 style={{ marginTop: "20px", marginBottom: "70px" }}>Free One-Click Applications</h2>
+      <div className="oneClickAppsTitleAndSearch">
+        <h2>Free One-Click Applications</h2>
+        <InputGroup size="md" onChange={handleSearch} style={{ width: "80%", color: "white", border: "1px solid #080494", borderRadius:"6px" }}>
+          <InputGroup.Text id="" style={{ backgroundColor: "white", color: "#080494", fontWeight:"700", }}>Search</InputGroup.Text>
+          <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" />
+        </InputGroup>
+      </div>
       <div className="oneClickApps">
-        {apps.map((app) => {
+        {filteredApps.map((app) => {
           // animDur += 50;
           // if (animDur > 3000) {
           //   animDur = 3000;
