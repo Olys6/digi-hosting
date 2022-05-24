@@ -317,7 +317,7 @@ const OneClickApps = () => {
         <h2>Free One-Click Applications</h2>
         <InputGroup size="md" onChange={handleSearch} style={{ width: "80%", color: "white", border: "1px solid #080494", borderRadius:"6px" }}>
           <InputGroup.Text id="" style={{ backgroundColor: "white", color: "#080494", fontWeight:"700", }}>Search</InputGroup.Text>
-          <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" />
+          <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" style={{ color:"#080494", fontWeight: "700" }} />
         </InputGroup>
       </div>
       <div className="oneClickApps">
