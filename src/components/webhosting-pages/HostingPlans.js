@@ -8,7 +8,7 @@ const HostingPlans = () => {
   return (
     <>
         <div class="webHostingCards" style={{ display: "flex", justifyContent: "center", gap: "1.2rem", marginTop: "0rem", flexWrap: "wrap", }}>
-          <a href='#/' className="hostingPlanCard" style={{ width: "25rem" }}>
+          <a href='http://cp.digihost.tech/domain-required?p=131708-2-uk' className="hostingPlanCard" style={{ width: "25rem" }}>
             <Card.Title className="hostingPlanCardTitle" style={{ fontSize: '25px', justifyContent: "space-evenly", margin: "0" }} ><i className="fa-solid fa-cloud" style={{ fontSize: '20px' }}></i> Plan 1 <i className="fa-solid fa-cloud" style={{ fontSize: '20px' }}></i></Card.Title>
             <div className="hostingPlanCardText" style={{ height: "inherit", padding: "1.5rem 0 1.5rem 0" }}>
               {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
@@ -27,7 +27,7 @@ const HostingPlans = () => {
               <Button style={{ marginTop: "-30px", backgroundColor: "#080494", border: "2px solid white", width: "12rem" }}>Order Now</Button>
             </div>
           </a>
-          <a href='#/' className="hostingPlanCard" style={{ width: "25rem" }}>
+          <a href='http://cp.digihost.tech/domain-required?p=131708-10-uk' className="hostingPlanCard" style={{ width: "25rem" }}>
             <Card.Title className="hostingPlanCardTitle" style={{ fontSize: '25px', justifyContent: "space-evenly", margin: "0" }} ><i className="fa-solid fa-cloud" style={{ fontSize: '20px' }}></i> Plan 2 <i className="fa-solid fa-cloud" style={{ fontSize: '20px' }}></i></Card.Title>
             <div className="hostingPlanCardText" style={{ height: "inherit", padding: "1.5rem 0 1.5rem 0" }}>
               {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
